@@ -17,7 +17,6 @@ jobs:
   build:
     runs-on: ghcr.io/hillweb/docker-python:latest
     permissions:
-      contents: read
       packages: write
     steps:
       - name: Checkout 代码
