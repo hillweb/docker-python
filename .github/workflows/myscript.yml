@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    runs-on: python:3.11-slim-bookworm
+    runs-on: ghcr.io/hillweb/docker-python:latest
     permissions:
       packages: write
     steps:
